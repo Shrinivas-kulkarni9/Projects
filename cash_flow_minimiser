@@ -1,3 +1,7 @@
+#This is a python implementation, which minimises the flow of cash, or number of transactions required to make a group of friends, who owe money to each other, 
+#to make everyone even.
+#It is a greedy algorithm, and takes O(n2) time, where n is the number of friends. This algorithm is independant of the number of debts within the group.
+
 def min_max_creditor(credit):
     Min = ''
     Max = ''
