@@ -1,2 +1,4 @@
-# Cash_flow_minimiser
-This repository contains a self-project, which is called a cash-flow-minimiser.
+# Projects
+This repository contains two self-projects,
+1) Cash F1ow Minimiser
+2) Sudoku Solver
