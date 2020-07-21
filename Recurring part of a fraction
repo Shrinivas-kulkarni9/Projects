@@ -40,6 +40,12 @@ if __name__ == "__main__":
             continue
         k = 9
         recur = 0
+        i = 0
+        temp = frac
+        while int((temp*10)/d) == 0:
+            temp*=10
+            i+=1
+        zeros = '0'*i
         while True:
             if k%d == 0:
                 temp = k/d
@@ -49,6 +55,6 @@ if __name__ == "__main__":
                 break
             k = k*10 + 9
         if integer%(10**m) == 0:
-            print(str(int(integer//(10**m))) + '.' + '(' + str(recur) + ')')
+            print(str(int(integer//(10**m))) + '.' + '(' + zeros + str(recur) + ')')
         else:
-            print(str(integer/(10**m)) + '(' + str(recur) + ')')
+            print(str(integer/(10**m)) + '(' + zeros + str(recur) + ')')
